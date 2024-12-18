@@ -105,7 +105,7 @@ class StudentMarkManagement:
             else:
                 print("Invalid choice. Please try again.")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     smm = StudentMarkManagement()
     smm.input_students()
     smm.input_courses()
